@@ -1,8 +1,8 @@
 {
-  "name": "pelican-cid",
+  "name": "pelican-cid2",
   "version": "0.0.0",
-  "description": "A Simple Pelican theme",
-  "author": "Hendra",
+  "description": "A Fork of A Simple Pelican theme",
+  "author": "Hendra, oneirosFade",
   "license": "MIT",
   "devDependencies": {
     "gulp": "~3.8.1",
