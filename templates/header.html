@@ -1,5 +1,5 @@
 <header class="blog-header">
-    <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+  <h1><a href="{{ SITEURL }}">{% if SITELOGO %}<img alt="{{ SITENAME }}" src="images/{{ SITELOGO }}" />{% else %}{{ SITENAME }}{% endif %}</a></h1>
     <p>{% if SITESUBTITLE %} {{ SITESUBTITLE }} {% endif %}</p>
     <nav>
         <a href="{{ SITEURL }}/{{ INDEX_URL }}">INDEX</a>
